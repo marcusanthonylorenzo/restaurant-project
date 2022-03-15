@@ -1,0 +1,152 @@
+:root{
+  /* ===== Colors ===== */
+
+  --primary-color: #2ece70;
+  --primary-color-light: #90e494;
+  --secondary-color: #e5f3e5;
+  --toggle-color: #;
+  --title-color: #;
+  --text-color: #;
+
+  /* ====== Transition ====== */
+  --tran-03: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.3s ease;
+  --tran-05: all 0.3s ease;
+}
+a {
+  text-decoration: none;
+}
+.navbar{
+  text-align: center;
+  background-color: var(--primary-color-light);
+  padding: 5px;
+  font-size: 20px;
+}
+.navbar a {
+  padding: 12px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: green;
+  transition: var(--tran-04);
+}
+.navbar a:hover {
+  color: black
+}
+.navbar h1 {
+  display: inline;
+  margin-right: 40px;
+  font-size: 25px;
+}
+.footer {
+  background-color: var(--primary-color-light);
+  margin-top: 50px;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  color: green;
+  
+  width: 100%;
+}
+
+.home-img {
+  display:block;
+  margin:auto;
+  border-radius: 50%;
+}
+.menu-link img{
+  width: 80px;
+}
+
+body {
+  background-color: rgb(144, 185, 144);
+  font-family: "Readex Pro";
+}
+.heading {
+  text-align: center;
+  font-size: 17px;
+}
+
+h1 {
+  font-family: "Galada";
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Menu */
+
+.menu img {
+  margin: 5vh;
+}
+
+#food1 {
+  margin-top: auto;
+  width: 560px;
+  height: 480px;
+}
+#food3 {
+  width: 560px;
+  height: 480px;
+}
+
+.menubar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vw;
+  gap:5vw;
+}
+
+.menubar a:hover{
+  color:#90e494;
+}
+
+.menubar img{
+  width: 2rem;
+  height: 2rem;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  margin: auto;
+  width: 600px;
+  height: 400px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.menu-items::-webkit-scrollbar{
+  display: none;
+}
+
+.contact-item a{
+  color: black;
+  padding: 5px;
+  width: 17%;
+  margin: auto;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  border: solid 2px transparent
+}
+/* Contact */
+.contact-item a p{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.contact-item a:hover {
+  border: green solid 2px;
+  border-radius: 5px;
+}
+.contact-info {
+  text-align: center;
+  font-size: 20px;
+}
+.contact-item img {
+  margin: auto;
+}
